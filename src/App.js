@@ -28,7 +28,7 @@ const App = () => {
           // strength={-200}
       > */}
       <Container className="container-box rounded">
-      <Fade duration={700}>
+      <Fade duration={2500}>
          <hr />
         <About />
 
@@ -41,7 +41,7 @@ const App = () => {
 
       {/* Skill Section */}
       <Container className="container-box rounded">
-        <Slide bottom duration={700}>
+        <Slide bottom duration={700} >
           <hr />
           <Skills />
         </Slide>

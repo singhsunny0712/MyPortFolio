@@ -188,7 +188,7 @@ export const skills = {
         skillName: "DATA STRUCTURE",
       },
       {
-        link: "",
+        link: "https://medium.com/@ahmedamedy/algorithm-analysis-bf0ca6506191",
         imgAltText: "ALGORITHM ANALYSIS",
         imgSrc: L_AA,
         skillName: "ALGORITHM ANALYSIS",
