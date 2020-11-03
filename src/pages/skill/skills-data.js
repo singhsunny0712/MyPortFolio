@@ -21,9 +21,12 @@ import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_JAVA from "../../assets/img/skills/java.svg";
+import L_CPP from "../../assets/img/skills/cpp.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import L_GOLANG from "../../assets/img/skills/go-6.svg";
 // import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_DS from "../../assets/img/skills/ds.svg";
+import L_AA from "../../assets/img/skills/algorithm.svg";
 
 export const skills = {
     frontend : [
@@ -147,6 +150,12 @@ export const skills = {
           imgSrc: L_JAVA,
           skillName: "Java",
         },
+        {
+          link: "https://www.w3schools.com/cpp/",
+          imgAltText: "C++",
+          imgSrc: L_CPP,
+          skillName: "C++",
+        },
         
     ],
     databases: [
@@ -170,6 +179,20 @@ export const skills = {
           imgSrc: L_GIT,
           skillName: "GIT",
         },
+    ],
+    other:[
+      {
+        link: "https://medium.com/omarelgabrys-blog/diving-into-data-structures-6bc71b2e8f92",
+        imgAltText: "DATA STRUCTURE",
+        imgSrc: L_DS,
+        skillName: "DATA STRUCTURE",
+      },
+      {
+        link: "",
+        imgAltText: "ALGORITHM ANALYSIS",
+        imgSrc: L_AA,
+        skillName: "ALGORITHM ANALYSIS",
+      },
     ],
 
 }

@@ -29,6 +29,7 @@ const App = () => {
       > */}
       <Container className="container-box rounded">
       <Fade duration={700}>
+         <hr />
         <About />
 
       </Fade>
@@ -37,7 +38,7 @@ const App = () => {
       {/* </Parallax> */}
       </div>
 
-      
+
       {/* Skill Section */}
       <Container className="container-box rounded">
         <Slide bottom duration={700}>
