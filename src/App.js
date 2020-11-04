@@ -11,6 +11,7 @@ import MyCarousal from "../src/components/my-carousal/my-carousal.components";
 import TypeWriter from "../src/components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skill/skills.component";
+import Experience from "./pages/experience/experience.component";
 
 
 const App = () => {
@@ -46,6 +47,18 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+
+      {/* Experience */}
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
       
     </div>
   );
