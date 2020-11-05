@@ -9,6 +9,7 @@ import "./App.css";
 import MyNavbar from "../src/components/my-navbar/mynavbar.components";
 import MyCarousal from "../src/components/my-carousal/my-carousal.components";
 import TypeWriter from "../src/components/title-message/title-message.component";
+import FOOTER from "../src/components/footer/footer.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skill/skills.component";
 import CONTACTFORM from "./pages/contact-form/contact-form.component";
@@ -84,6 +85,8 @@ const App = () => {
         </Container>
       </div>
       
+      <hr />
+      <FOOTER />
     </div>
   );
 }
