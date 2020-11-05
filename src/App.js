@@ -11,6 +11,7 @@ import MyCarousal from "../src/components/my-carousal/my-carousal.components";
 import TypeWriter from "../src/components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skill/skills.component";
+import CONTACTFORM from "./pages/contact-form/contact-form.component";
 import Experience from "./pages/experience/experience.component";
 import ProjectTimeline from './components/projects-timeline/projects-timeline.component';
 
@@ -68,6 +69,17 @@ const App = () => {
             <hr />
 
             <ProjectTimeline />
+          </Fade>
+        </Container>
+      </div>
+
+      {/* contact form  */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <CONTACTFORM />
           </Fade>
         </Container>
       </div>
