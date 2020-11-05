@@ -12,6 +12,7 @@ import TypeWriter from "../src/components/title-message/title-message.component"
 import About from "./pages/about/about.component";
 import Skills from "./pages/skill/skills.component";
 import Experience from "./pages/experience/experience.component";
+import ProjectTimeline from './components/projects-timeline/projects-timeline.component';
 
 
 const App = () => {
@@ -56,6 +57,17 @@ const App = () => {
             <hr />
 
             <Experience />
+          </Fade>
+        </Container>
+      </div>
+
+      {/* projects  */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <ProjectTimeline />
           </Fade>
         </Container>
       </div>

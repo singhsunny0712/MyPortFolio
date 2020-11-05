@@ -36,7 +36,7 @@ const Experience = () => {
                       <li><strong>Developed</strong> the doubt support on the web portal between teacher and the student.
                       </li>
                       <li><strong>Provided</strong> application maintenance while working.</li>
-                      <li><strong>Part time</strong> working as <strong> Mentor </strong>,where i taught the about complex algorithm and web develeopment. </li>
+                      <li><strong>Part time</strong> working as <strong> Mentor </strong>,where i taught the students about complex algorithm and web develeopment. </li>
                       
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
