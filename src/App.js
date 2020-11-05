@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade';
 import Slide from "react-reveal/Slide";
 // import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 
 //compoents
 import "./App.css";
@@ -23,6 +25,12 @@ const App = () => {
       <MyNavbar />
       <MyCarousal />
       <TypeWriter />
+
+       <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
+
       {/* about me section */}
       <div>
       {/* <Parallax
