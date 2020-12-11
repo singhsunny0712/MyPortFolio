@@ -9,6 +9,7 @@ import L_Keeper from "../../assets/img/projects/keeper_App.png";
 import L_NodeFarm from "../../assets/img/projects/NodeFarm.png";
 import L_WhiteBoard from "../../assets/img/projects/WhiteBoard.png";
 import L_ExcelClone from "../../assets/img/projects/ExcelClone.png";
+import L_Instaclone from "../../assets/img/projects/instaclone.png";
 
 
 
@@ -33,6 +34,154 @@ const ProjectTimeline = () => {
        <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
        <Timeline>
            <Events>
+            {/* Project InstaClone */}
+           <ImageEvent
+            date="25/11/2k20"
+            className="text-center"
+            text="Instagram Clone"
+            src={L_Instaclone}
+            alt="React Keeper App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This Project clone of Instagram ,where i make RESTapi and used MERN stack technology.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Authentication Features</li>
+                          <li>Same Feature of Insta</li>
+                          <li>Used cloud service to pic storage</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS_JS}
+                                alt="Express.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HEROKU}
+                                alt="Heroku"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                                Heroku
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                                GitHub
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://instaclone100.herokuapp.com/signin"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/singhsunny0712/Insta_Clone_MERN"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
+
+
             {/* Project: Keeper App */}
         <ImageEvent
             date="02/11/2k20"
