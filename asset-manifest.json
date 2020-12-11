@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MyPortFolio/static/css/main.aee32478.chunk.css",
-    "main.js": "/MyPortFolio/static/js/main.34bcad8d.chunk.js",
-    "main.js.map": "/MyPortFolio/static/js/main.34bcad8d.chunk.js.map",
+    "main.js": "/MyPortFolio/static/js/main.a779ea46.chunk.js",
+    "main.js.map": "/MyPortFolio/static/js/main.a779ea46.chunk.js.map",
     "runtime-main.js": "/MyPortFolio/static/js/runtime-main.3ad13a3c.js",
     "runtime-main.js.map": "/MyPortFolio/static/js/runtime-main.3ad13a3c.js.map",
-    "static/js/2.7677df10.chunk.js": "/MyPortFolio/static/js/2.7677df10.chunk.js",
-    "static/js/2.7677df10.chunk.js.map": "/MyPortFolio/static/js/2.7677df10.chunk.js.map",
+    "static/js/2.2bfadd5c.chunk.js": "/MyPortFolio/static/js/2.2bfadd5c.chunk.js",
+    "static/js/2.2bfadd5c.chunk.js.map": "/MyPortFolio/static/js/2.2bfadd5c.chunk.js.map",
     "index.html": "/MyPortFolio/index.html",
     "static/css/main.aee32478.chunk.css.map": "/MyPortFolio/static/css/main.aee32478.chunk.css.map",
-    "static/js/2.7677df10.chunk.js.LICENSE.txt": "/MyPortFolio/static/js/2.7677df10.chunk.js.LICENSE.txt",
+    "static/js/2.2bfadd5c.chunk.js.LICENSE.txt": "/MyPortFolio/static/js/2.2bfadd5c.chunk.js.LICENSE.txt",
     "static/media/ExcelClone.01fb8ee9.png": "/MyPortFolio/static/media/ExcelClone.01fb8ee9.png",
     "static/media/NodeFarm.0951ac24.png": "/MyPortFolio/static/media/NodeFarm.0951ac24.png",
     "static/media/React_ToDo_List.b7168c01.png": "/MyPortFolio/static/media/React_ToDo_List.b7168c01.png",
@@ -27,6 +27,7 @@
     "static/media/github.740db6be.svg": "/MyPortFolio/static/media/github.740db6be.svg",
     "static/media/heroku.73be03b3.svg": "/MyPortFolio/static/media/heroku.73be03b3.svg",
     "static/media/html-5.821ba738.svg": "/MyPortFolio/static/media/html-5.821ba738.svg",
+    "static/media/instaclone.4b6a6a21.png": "/MyPortFolio/static/media/instaclone.4b6a6a21.png",
     "static/media/java.5e8cb917.svg": "/MyPortFolio/static/media/java.5e8cb917.svg",
     "static/media/javascript.ba40d6a9.svg": "/MyPortFolio/static/media/javascript.ba40d6a9.svg",
     "static/media/keeper_App.cf46472a.png": "/MyPortFolio/static/media/keeper_App.cf46472a.png",
@@ -46,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3ad13a3c.js",
-    "static/js/2.7677df10.chunk.js",
+    "static/js/2.2bfadd5c.chunk.js",
     "static/css/main.aee32478.chunk.css",
-    "static/js/main.34bcad8d.chunk.js"
+    "static/js/main.a779ea46.chunk.js"
   ]
 }
